@@ -441,6 +441,10 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
 
+        .experience-list {
+            font-size: 14px;
+            line-height: 1.8;
+        }
     </style>
 </head>
 <body>
@@ -515,7 +519,7 @@
                             </div>
                         </div>
                         <div class="skill-category">
-                            <h4><i class="fas fa-cloud"></i> DevOps & Tools</h4>
+                            <h4><i class="fas fa-cloud"></i> DevOps &amp; Tools</h4>
                             <div class="skill-tags">
                                 <span class="skill-tag">AWS (EC2 / BeanStalk / RDS / LightSail / S3)</span>
                                 <span class="skill-tag">Docker</span>
@@ -559,10 +563,11 @@
                     <h3><i class="fas fa-user"></i> 개발자 소개</h3>
                     <ul class="highlight-list">
                         <li>PHP, Node.js 기반 백엔드 개발 경험 다수 보유</li>
-                        <li>jQuery, React.js, NextJS 기반 프론트 개발 일부 보유</li>
+                        <li>jQuery, React.js, NextJS 기반 프론트 개발 경험 일부 보유</li>
                         <li>결제 시스템, 실시간 채팅, 대용량 푸시 시스템 구축 경험</li>
                         <li>AWS 인프라 구축 및 트래픽 최적화 경험 보유</li>
                         <li>새로운 언어, 프레임워크, 스택, 기술 등을 좋아하고 기회만 있다면<br>새로운 것에 도전하는 데에 흥미를 느끼고 열정을 발휘할 수 있습니다.</li>
+                        <li>더 좋은, 효율적인, 편안한 방법을 위해 일하는 방식이든, 개발 방식이든<br> 항상 고민하고 실천하려 하고 있습니다.</li>
                     </ul>
                 </div>
 
@@ -580,6 +585,13 @@
                             <div class="duration" id="current-job-duration">2023.06 ~ 현재 (계산 중...)</div>
                         </div>
                         <p style="color: #666; margin-bottom: 20px;">SI, 에이전시 회사에서 다양한 웹 개발 프로젝트 담당</p>
+                        <p style="color: #666;">&#9679; 유일하게 대리 직급의 직원중에서 선임 직급으로 진급했습니다.</p>
+                        <p style="color: #666;">&#9679; 신입 직원분이 올 때마다 회사에 대한 가이드가 없어서 매번 설명할 필요가 없게 가이드를 만들었습니다.</p>
+                        <p style="color: #666;">&#9679; 더 나아가 개발자끼리도 양식을 맞추면 좋을 거 같아서 개발자용 가이드 문서를 만들었습니다.</p>
+                        <p style="color: #666;">&#9679; 회사 내부에서 깃도 안쓰던 상황이여서 만들어서 세팅 후 전 직원이 사용할 수 있게 했습니다.</p>
+                        <p style="color: #666;">&#9679; 개발할 때 로컬에서만 세팅해서 환경이 다 다르다보니 개발 서버를 만들어서 환경을 통일시켰습니다.</p>
+                        <p style="color: #666;">&#9679; 관리자 페이지는 모듈화 하기가 용이해서 프로토타입을 만든 후 작업할 때 사용할 수 있게 했습니다.</p>
+                        <p style="color: #666;">&#9679; 프로젝트 종료 후 같은 프로젝트 했던 사람들끼리 리뷰하는 문화가 없어서 만들어서 주도했습니다.</p>
 
                         <div class="project-grid">
                             <div class="project-card">
@@ -596,17 +608,27 @@
                                         <i class="fas fa-globe"></i> 웹사이트
                                     </a>
                                 </div>
+
                                 <div class="tech-stack">
                                     <span class="tech-tag">NestJS</span>
                                     <span class="tech-tag">Next.JS</span>
                                     <span class="tech-tag">Sequelize</span>
                                     <span class="tech-tag">Google Maps API</span>
                                 </div>
+
+                                <div class="project-experience" style="margin-top: 1rem;">
+                                    <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                                    <div class="experience-list">
+                                        <div>&#9679; <strong>Google Maps API와 폴리곤 데이터 연동</strong>방글라데시 지역의 폴리곤 데이터를 구해서 지역을 클릭할 때마다 하위 뎁스로 확대 및 폴리곤 데이터 재생성</div>
+                                        <div>&#9679; <strong>Sequelize ORM 사용: </strong>Prisma와 장단점을 비교해서 다음 프로젝트 때 상황에 맞게 사용 예정</div>
+                                        <div>&#9679; <strong>첫 Next.JS 프로젝트: </strong>프론트 작업을 Next.JS로 구현해서 학습</div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="project-card">
                                 <div class="project-header">
-                                    <div class="project-title">장애인 예술 플랫폼</div>
+                                    <div class="project-title">[아트가이드런] 장애인 예술 플랫폼</div>
                                     <div class="contribution">기여도 75%</div>
                                 </div>
                                 <div class="project-description">
@@ -628,11 +650,19 @@
                                     <span class="tech-tag">포트원 결제</span>
                                     <span class="tech-tag">포트원 본인 인증</span>
                                 </div>
+
+                                <div class="project-experience" style="margin-top: 1rem;">
+                                    <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                                    <div class="experience-list">
+                                        <div>&#9679; <strong>처음 NextJS 로 API 구현: </strong>프론트 개발자분들과 더 편하고 빠르고 좋은 개발 방법을 구현하기 위해 의논 및 협업해서 API 개발</div>
+                                        <div>&#9679; <strong>관리자 페이지 모듈화 재사용: </strong>이전 프로젝트에서 사용했던 모듈화를 활용해서 개발해서 작업 시간 40% 단축</div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="project-card">
                                 <div class="project-header">
-                                    <div class="project-title">명품 렌탈 관리시스템</div>
+                                    <div class="project-title">[렌티크] 명품 렌탈 관리시스템</div>
                                     <div class="contribution">기여도 50%</div>
                                 </div>
                                 <div class="project-description">
@@ -652,11 +682,18 @@
                                     <span class="tech-tag">토스페이먼츠</span>
                                     <span class="tech-tag">카카오 알림톡</span>
                                 </div>
+
+                                <div class="project-experience" style="margin-top: 1rem;">
+                                    <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                                    <div class="experience-list">
+                                        <div>&#9679; <strong>관리자 페이지 모듈화 프로토타입: </strong>Laravel 로 관리자 페이지 자주 쓰는 것들 모듈화 고려해서 작업</div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="project-card">
                                 <div class="project-header">
-                                    <div class="project-title">다이어트 프로그램 예약 및 쇼핑몰 관리자</div>
+                                    <div class="project-title">[미베르] 다이어트 프로그램 예약 및 쇼핑몰 관리자</div>
                                     <div class="contribution">기여도 50%</div>
                                 </div>
                                 <div class="project-description">
@@ -676,11 +713,18 @@
                                     <span class="tech-tag">Laravel</span>
                                     <span class="tech-tag">AWS EC2 / RDS / S3</span>
                                 </div>
+
+                                <div class="project-experience" style="margin-top: 1rem;">
+                                    <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                                    <div class="experience-list">
+                                        <div>&#9679; <strong>팀원과 함께 Laravel 로 개발: </strong>초기 세팅 + 디비 설계 후에 팀원 분과 사용자 / 관리자 나눠서 협업하며 개발</div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="project-card">
                                 <div class="project-header">
-                                    <div class="project-title">아웃백 - 이벤트 페이지</div>
+                                    <div class="project-title">[아웃백] 이벤트 페이지</div>
                                     <div class="contribution">기여도 90%</div>
                                 </div>
                                 <div class="project-description">
@@ -694,13 +738,22 @@
                                 <div class="tech-stack">
                                     <span class="tech-tag">Express.js</span>
                                     <span class="tech-tag">AWS ALB</span>
+                                    <span class="tech-tag">AWS EBS</span>
                                     <span class="tech-tag">AWS RDS</span>
+                                </div>
+
+                                <div class="project-experience" style="margin-top: 1rem;">
+                                    <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                                    <div class="experience-list">
+                                        <div>&#9679; <strong>실시간 대용량 처리: </strong>EBS + ALB 를 이용해 서버 구성해서 접속량에 따라 인스턴스 수 자동 조절되게 수정</div>
+                                        <div>&#9679; <strong>node 를 사용한 첫 프로젝트: </strong>php 와 node 중에 node 가 실시간 처리에 더 용이해서 선택</div>
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="project-card">
                                 <div class="project-header">
-                                    <div class="project-title">우주기술 진흥협회 - 우주기술 진흥협회에서 운영하는 사이트</div>
+                                    <div class="project-title">[우주기술 진흥협회] 우주기술 진흥협회에서 운영하는 사이트</div>
                                     <div class="contribution">기여도 20%</div>
                                 </div>
                                 <div class="project-description">
@@ -720,11 +773,18 @@
                                 <div class="tech-stack">
                                     <span class="tech-tag">그누보드</span>
                                 </div>
+
+                                <div class="project-experience" style="margin-top: 1rem;">
+                                    <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                                    <div class="experience-list">
+                                        <div>&#9679; <strong>php 5 -> 7.2 버전으로 업그레이드: </strong>두 버전간의 문법을 비교 후 일일히 변경하는 것이 아닌 특히 mysql query쪽이 변경된 게 많아서 맨 앞단에서 따로 처리 후 적용</div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="project-card">
                                 <div class="project-header">
-                                    <div class="project-title">임플란트 가이드 - 치과에서 환자 관리를 위한 웹 서비스</div>
+                                    <div class="project-title">[임플란트 가이드] 치과에서 환자 관리를 위한 웹 서비스</div>
                                     <div class="contribution">기여도 20%</div>
                                 </div>
                                 <div class="project-description">
@@ -738,11 +798,18 @@
                                 <div class="tech-stack">
                                     <span class="tech-tag">그누보드</span>
                                 </div>
+
+                                <div class="project-experience" style="margin-top: 1rem;">
+                                    <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                                    <div class="experience-list">
+                                        <div>&#9679; <strong>서비스 중에 외부에서 그누보드 게시판을 무단 사용하는 악성 공격 발생 : </strong>이전 작업자가 해놓은 nginx 세팅 변경 후 처리 및 예방</div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="project-card">
                                 <div class="project-header">
-                                    <div class="project-title">아소비 - 아동 교육 및 관리 플랫폼</div>
+                                    <div class="project-title">[아소비] 아동 교육 및 관리 플랫폼</div>
                                     <div class="contribution">기여도 70%</div>
                                 </div>
                                 <div class="project-description">
@@ -758,11 +825,18 @@
                                     <span class="tech-tag">AWS EC2</span>
                                     <span class="tech-tag">FCM</span>
                                 </div>
+
+                                <div class="project-experience" style="margin-top: 1rem;">
+                                    <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                                    <div class="experience-list">
+                                        <div>&#9679; <strong>FCM 푸시 발송 구현: </strong>공지사항 및 이벤트 등록시 매번 5만건 발송하는 푸시 구현 및 chunk 로 나눠서 대용량 발송</div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="project-card">
                                 <div class="project-header">
-                                    <div class="project-title">튜터캠퍼스 - 과외 매칭 플랫폼</div>
+                                    <div class="project-title">[튜터캠퍼스] 과외 매칭 플랫폼</div>
                                     <div class="contribution">기여도 95%</div>
                                 </div>
                                 <div class="project-description">
@@ -780,6 +854,16 @@
                                     <span class="tech-tag">포트원 결제</span>
                                     <span class="tech-tag">소셜 로그인</span>
                                 </div>
+
+                                <div class="project-experience" style="margin-top: 1rem;">
+                                    <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                                    <div class="experience-list">
+                                        <div>&#9679; <strong>Ratchet 채팅 구현: </strong>웹소켓을 사용해 실시간 채팅 구현</div>
+                                        <div>&#9679; <strong>포트원 인증 결제, 비인증 결제, 포인트 충전 및 결제 구현: </strong>포트원을 통해 카드사 호출해서 하는 인증 결제, 카드 등록해서 편하게 결제하는 비인증 결제, 카드로 포인트 충전해서 사용하는 방법 구현</div>
+                                        <div>&#9679; <strong>카카오, 네이버, 구글, 애플 SNS 로그인 구현: </strong>SNS로 로그인 하는 프로세스를 익히고 각 서비스에 맞게 구현</div>
+                                        <div>&#9679; <strong>처음부터 끝까지 실사용하는 서비스를 만든 경험: </strong>프레임워크를 안썼지만 php를 이용해 디비 연결부터 세션관리등등 하나하나 다 구성하면서 개발</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -793,6 +877,8 @@
                             <div class="duration">2022.05 ~ 2023.06 (1년 2개월)</div>
                         </div>
                         <p style="color: #666; margin-bottom: 20px;">쇼핑몰 통합관리 솔루션 '비플로우' 유지 보수 및 신규 기능 개발</p>
+                        <p style="color: #666;">&#9679; 처음에 경력자분들이 많아서 많은 것들을 배울 수 있었으나 절반 이상 퇴사하여 스스로 열심히 할 수 있는 환경이 되었습니다.</p>
+                        <p style="color: #666; margin-bottom: 20px;">&#9679; 다른 언어와 다양한 스택을 기술을 배우고 싶어서 이직하게 되었습니다.</p>
 
                         <div class="project-card">
                             <div class="project-description">
@@ -809,6 +895,14 @@
                                 <span class="tech-tag">MySQL</span>
                                 <span class="tech-tag">AWS</span>
                             </div>
+
+                            <div class="project-experience" style="margin-top: 1rem;">
+                                <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                                <div class="experience-list">
+                                    <div>&#9679; <strong>대규모 서비스 사용 경험 보유: </strong>B2B 사업 모델이긴 했지만 다수가 사용하는 서비스에서의 개발 방식, 권환 관리, 배포 방식등을 배우게 됐습니다.</div>
+                                    <div>&#9679; <strong>Laravel 첫 사용: </strong>Laravel 프레임워크를 처음으로 접해서 배우고 습득했습니다</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -821,6 +915,8 @@
                             <div class="duration">2021.04 ~ 2022.05 (1년 2개월)</div>
                         </div>
                         <p style="color: #666; margin-bottom: 20px;">실시간 경매 시스템 개발</p>
+                        <p style="color: #666;">&#9679; 초반에 사수에게 많이 배운 후 반년 만에 사수가 퇴사한 후 부사수만 2명 있던 상황에서 책임감을 가지고 같이 성장했습니다.</p>
+                        <p style="color: #666; margin-bottom: 20px;">&#9679; 다른 프레임워크를 익히고 팀원도 더 많고 서비스도 어려운 곳에서 더 많이 배우고 싶어서 이직하게 됐습니다.</p>
 
                         <div class="project-card">
                             <div class="project-description">
@@ -835,6 +931,14 @@
                                 <span class="tech-tag">CodeIgniter</span>
                                 <span class="tech-tag">EventSource</span>
                                 <span class="tech-tag">실시간 처리</span>
+                            </div>
+
+                            <div class="project-experience" style="margin-top: 1rem;">
+                                <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                                <div class="experience-list">
+                                    <div>&#9679; <strong>CodeIgniter 실무에서 사용: </strong>그동안은 CodeIgniter로 개발하면서 저의 방식대로 했었지만 처음 실제 이용중인 서비스에서의 개발 모델을 배웠습니다</div>
+                                    <div>&#9679; <strong>창업이 아닌 첫 회사: </strong>처음 사수와 부사수로 된 팀에서 팀원들과 같이 일하면서 각자 할 일을 분배하고 협업하는 방법을 배웠습니다</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -853,6 +957,14 @@
                             <div class="tech-stack">
                                 <span class="tech-tag">CodeIgniter</span>
                                 <span class="tech-tag">AWS</span>
+                            </div>
+
+                            <div class="project-experience" style="margin-top: 1rem;">
+                                <h5><i class="fas fa-lightbulb"></i> 창업 경험</h5>
+                                <div class="experience-list">
+                                    <div>&#9679; <strong>모임을 위한 웹사이트 개발: </strong>'스페이스 클라우드'라는 플랫폼을 이용했었지만 자체적으로 만드려고 기획 및 개발</div>
+                                    <div>&#9679; <strong>처음 친구랑 동업해서 시작한 사업: </strong>서울 대림, 문래, 신도림 총 5개의 안쓰던 공간을 모임 공간으로 바꿔서 이용률 50%를 넘게 유지 및 관리</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -882,11 +994,19 @@
 <!--                        </div>-->
                         <div class="tech-stack">
                             <span class="tech-tag">React</span>
+                            <span class="tech-tag">CodeIgniter</span>
                             <span class="tech-tag">GraphQL</span>
                             <span class="tech-tag">JWT</span>
                             <span class="tech-tag">Heroku</span>
                             <span class="tech-tag">PostgreSQL</span>
                             <span class="tech-tag">Google Maps API</span>
+                        </div>
+
+                        <div class="project-experience" style="margin-top: 1rem;">
+                            <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                            <div class="experience-list">
+                                <div>&#9679; <strong>처음 혼자 완성한 개발 프로젝트: </strong>처음엔 React 강의를 보고 만들고 그 기획을 토대로 CodeIgniter 버전으로 처음부터 끝까지 재개발했었습니다</div>
+                            </div>
                         </div>
                     </div>
                 </div>
