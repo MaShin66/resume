@@ -861,7 +861,7 @@
                                 <h3>주식회사 메타몬스터</h3>
                                 <div class="position">개발팀 대리 &rarr; 선임</div>
                             </div>
-                            <div class="duration" id="current-job-duration">2023.06 ~ 현재 (계산 중...)</div>
+                            <div class="duration" id="current-job-duration">2023.06 ~ 재직 중</div>
                         </div>
                         <p style="color: #666; margin-bottom: 20px;">SI, 에이전시 회사에서 다양한 웹 개발 프로젝트 담당</p>
                         <p style="color: #666;">&#9679; 유일하게 대리 직급의 직원중에서 선임 직급으로 진급했습니다.</p>
@@ -873,6 +873,39 @@
                         <p style="color: #666;">&#9679; 프로젝트 종료 후 같은 프로젝트 했던 사람들끼리 리뷰하는 문화가 없어서 만들어서 주도했습니다.</p>
 
                         <div class="project-grid">
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <div class="project-title">[LK 보험 중개] - 기업 보험 접수를 편하게 해주는 플랫폼</div>
+                                    <div class="contribution">기여도 50%</div>
+                                </div>
+                                <div class="project-description">
+                                    LK 담당자가 앱을 통해 보험을 접수하면 관리자에서 확인 후 각 보험사로 메일 발송<br>
+                                    사용자와 관리자 프론트 모두 Next.js로  프론트 개발자가 개발 및<br>
+                                    혼자서 백엔드 Nest.js 로 API 개발<br>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://dev-cs.lkins.co.kr/business" class="website-link" target="_blank">
+                                        <i class="fas fa-globe"></i> 웹사이트
+                                    </a>
+                                </div>
+
+                                <div class="tech-stack">
+                                    <span class="tech-tag">NestJS</span>
+                                    <span class="tech-tag">Sequelize</span>
+                                    <span class="tech-tag">포트원 본인 인증</span>
+                                    <span class="tech-tag">FCM</span>
+                                    <span class="tech-tag">NCP</span>
+                                </div>
+
+                                <div class="project-experience" style="margin-top: 1rem;">
+                                    <h5><i class="fas fa-lightbulb"></i> 개발 경험 &amp; 문제 해결</h5>
+                                    <div class="experience-list">
+                                        <div>&#9679; <strong>프론트 - 백 인증 방식 변경</strong>NCP 취약점 점검 환경으로 인해 쿠키 토큰 방식에서 헤더 토큰 방식으로 변경</div>
+                                        <div>&#9679; <strong>DB 암호화 및 마스킹 진행</strong>보안이 요구되는 프로젝트였어서 필요한 필드에 암호화 및 마스킹 진행 코드 추가</div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="project-card">
                                 <div class="project-header">
                                     <div class="project-title">[오케이컨텐츠] - 영화 배급 사이트인 코비스의 데이터를 크롤링 해서<br> 데이터를 가공 및 관리하는 서비스</div>
@@ -1383,12 +1416,12 @@
             document.getElementById('career').textContent = `${totalYears}년 ${remainingMonths}개월 경력 • 풀스택 개발`;
 
             // 현재 회사 재직 기간 계산
-            const currentJobStart = '2023.06';
-            const currentDuration = calculateDuration(currentJobStart);
-            const currentJobElement = document.getElementById('current-job-duration');
-            if (currentJobElement) {
-                currentJobElement.textContent = `${currentJobStart} ~ 현재 (${currentDuration.years}년 ${currentDuration.months}개월)`;
-            }
+            // const currentJobStart = '2023.06';
+            // const currentDuration = calculateDuration(currentJobStart);
+            // const currentJobElement = document.getElementById('current-job-duration');
+            // if (currentJobElement) {
+            //     currentJobElement.textContent = `${currentJobStart} ~ 현재 (${currentDuration.years}년 ${currentDuration.months}개월)`;
+            // }
         }
 
         // 페이지 로드 시 실행
